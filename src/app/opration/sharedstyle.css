@@ -1,0 +1,209 @@
+.MainLogin,
+.MainRegister,
+.MainForgetPassword,
+.MainResetPassword
+{
+    display: grid;
+    margin-top: 5em;
+}
+.MainVerify
+{
+    display: grid;
+    padding: 10em;
+    justify-items: center;
+}
+
+.Login,
+.Register
+{
+    display: flex;
+    justify-content: space-between;
+}
+.MainPic_Login,
+.MainPic_Register
+{
+   
+}
+.pic_register
+{
+    width: 28em;
+}
+.MainInput_Login,
+.MainInput_Register
+{
+    padding: 1em;
+}
+.Login_Text,
+.Register_Text,
+.ResetPassword_Text
+
+{
+    padding: 1em;
+}
+.Text1_Login,
+.Text1_Register,
+.Text1_ResetPassword,
+.Text1_ForgetPassword,
+.Text1_Verify
+
+{
+    color:  #363636;
+    font-family: Natasha Walker;
+    font-size: 57px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 85.5px */
+    
+}
+.text2_Login,
+.text2_Register,
+.Text2_ResetPassword,
+.Text2_ForgetPassword,
+.Text2_Verify
+{
+color:  #363636;
+font-family: Montserrat;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 42px */
+}
+.Verify_Text
+{
+    padding-bottom: 5em;
+    padding-top: 5em;
+}
+
+.formlogin,
+.formregister
+{
+    display: grid;
+    padding: 1em;
+}
+.fromforget
+{
+    display: grid;
+    padding-bottom: 4em;
+}
+.label_mail,
+.label_password,
+.label_user,
+.label_Confirm_password
+{
+color:  #212529;
+font-family: Montserrat;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 28.5px */
+}
+.Input_User,
+.Input_Mail,
+.Input_Password,
+.Input_Confirm_password
+{
+border-radius: 32px;
+border: 1px solid  #363636;
+display: flex;
+height: 50px;
+padding: 1em;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+width: 430px;
+}
+.Forget_Password
+{
+color: #000;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+}
+.Terms
+{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+.SignUp,
+.Create_new,
+.btn_Verify,
+.btn_Reset,
+.btn_Forget
+{
+display: flex;
+width: 430px;
+padding: 16.5px 26px 16.5px 32px;
+justify-content: center;
+align-items: center;
+gap: 14px;border-radius: 32px;
+background:  #5B7C75;
+color: #FFF;
+font-family: Montserrat;
+font-size: 19px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 28.5px */
+text-transform: uppercase;
+}
+.New_SignUp,
+.Remember_Pass
+
+{
+color:  #363636;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 24px */
+}
+
+.ForgetPassword,
+.ResetPassword
+
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4em;
+}
+.Reset_Text
+{
+    padding-bottom: 3em;
+}
+.Instructions
+{
+display: flex;
+width: 477px;
+padding: 24px;
+flex-direction: column;
+align-items: flex-start;
+gap: 32px;
+border-radius: 24px;
+border: 1px dashed  #363636;
+background: #FFFCF7;
+}
+.text1_instruction
+{
+color:  #363636;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 24px */
+}
+.List_Instructions
+{
+list-style-type: disc;
+color:  #1C1C1C;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+}

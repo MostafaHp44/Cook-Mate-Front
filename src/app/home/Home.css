@@ -1,0 +1,296 @@
+.MainHome
+{
+    display: grid;
+    padding-top: 10em;
+}
+.SecOne
+{
+    display: grid;
+    padding-bottom: 10em;
+}
+.Main_View
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Pop_Food
+{
+    width: auto;
+    height: auto;
+}
+.Tilte_Pop_Food
+{
+color:  #363636;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+display: flex;
+height: 65.162px;
+padding: 6.413px 14.964px;
+justify-content: center;
+align-items: center;
+gap: 8.551px;
+border-radius: 42.753px;
+background:  #ECECEC;
+width: 14em;
+position: relative;
+bottom: 13em;
+left: 13em;
+}
+.Rating_Pop_Food
+{
+color:  #000;
+text-align: right;
+font-family: Montserrat;
+font-size: 23.514px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: flex;
+width: 114.995px;
+height: 58.83px;
+padding: 6.413px 14.964px;
+justify-content: center;
+align-items: center;
+border-radius: 42.753px;
+background:  #FDEED9;
+position: relative;
+bottom: 10.5em;
+left: 17em;
+}
+.GreatingUser
+{
+ color:  #363636;
+font-family: Montserrat;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.StatusText
+{
+ color:  #1C1C1C;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.MainInput
+{
+padding-top: 4em;
+border-radius: 16px;
+border: 1px solid  rgba(54, 54, 54, 0.10);
+background:  #FFF;
+display: flex;
+width: 493px;
+height: 64px;
+padding: 24px 16px;
+align-items: center;
+gap: 16px;
+display: flex;
+}
+.SearchWord
+{
+border-radius: 8px;
+background:  #FDEED9;
+display: flex;
+height: 32px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+color:  #1C1C1C;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+
+.SearchInput
+{
+    border-radius: 16px;
+    border: 1px solid  #FFF; 
+    padding: 1em;
+}
+.SearchInput:active
+{
+    border-radius: 16px;
+    border: 1px solid  #FFF
+
+}
+
+.KeyWordSearch
+{
+    color:  #1C1C1C;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.SecTwo
+{
+    display: grid;
+}
+.Filter
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10em;
+}
+.TypeFilter
+{
+    display: flex;
+    gap: 1em;
+}
+
+.TF,
+.All
+{
+color:  #363636;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+display: flex;
+padding: 22px 34px;
+justify-content: center;
+align-items: center;
+border-radius: 16px;
+border: 1px solid  rgba(54, 54, 54, 0.10);
+background:  #FFFCF7;
+}
+.TF:active,
+.All:active
+{
+    color:  #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    padding: 22px 34px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background:  #E36824; 
+}
+.FB
+{
+color: #ECECEC;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+display: flex;
+height: 55px;
+padding: 22px 34px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 16px;
+border: 1px solid  rgba(54, 54, 54, 0.10);
+background:  #363636;
+}
+.Cardsof_Food
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5em;
+}
+.Card_Food
+{
+    display: grid;
+    width: 260px;
+    height: 305px;
+    border-radius: 20.822px;
+    background:  #ECECEC;
+    margin-bottom: 5em;
+
+}
+.veiw_food
+{
+    height: 3em;
+}
+.imgfood
+{
+   
+    width: 260px;
+    height: 260px;
+    position: relative;
+    bottom: 8em;
+}
+.ratingfood
+{
+    color: #1C1C1C;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 19.086px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 34.703px;
+    background: #FDEED9;
+    display: inline-flex;
+    padding: 5.205px 12.146px;
+    position: relative;
+    left: 10em;
+    bottom: 16em;
+    z-index: 100;
+}
+.Tilteof_food
+{
+color:  #363636;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+display: flex;
+align-items: center;
+justify-content: center
+}
+.detailsof_food
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.TimeText
+{
+    color: #1C1C1C;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-left: 2.5em;
+}
+.TimeNumber
+{
+    color:  #363636;
+    font-family: Montserrat;
+    font-size: 19.086px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}

@@ -1,0 +1,304 @@
+.MainRecip_Details,
+.Main_AddNewRecipe,
+.MainAddSteps
+{
+    display: grid;
+    margin: 2em;
+    padding: 2em;
+    
+}
+.MainPic_Recip
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5em;
+}
+.MainText_Recip
+{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 5em;
+    align-items: baseline;
+}
+.Secondery_PicRecip
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+}
+.img1_PicRecip,
+.img2_PicRecip,
+.img3_PicRecip,
+.img4_PicRecip,
+.img5_PicRecip
+{
+    border-radius: 24px;
+    background:  #FDEED9;    
+}
+.Full_Details
+{
+    display: grid;
+}
+.All_Rating
+{
+    display: flex;
+    align-items: center;
+    gap: 36em;
+    margin-bottom: 3em;
+}
+
+.Author_Date
+{
+    display: flex;
+    gap: 3em;
+}
+.Rating_With_Number
+{
+color:  #363636;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 28.8px */
+}
+
+.Make_Rate
+{
+border-radius: 32px;
+border: 1px solid  #363636;
+background:  #FFFCF7; 
+color:  #1C1C1C;
+font-family: OpenSans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 155%; /* 24.8px */
+text-transform: uppercase;
+padding: 10px 18px 10px 22px;
+}
+.Title_Recipe
+{
+color:  #363636;
+font-family: Montserrat;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 50.4px */
+}
+.MainText_AddnewRecipe,
+.MainText_AddSteps
+{
+color:  #363636;
+font-family: Montserrat;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 50.4px */
+margin: 3em 0 0 1em ;
+}
+.Author_Recipe,
+.Date_Recipe
+{
+    color:  #1C1C1C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+    border-radius: 500px;
+    background: rgba(227, 104, 36, 0.10);
+    padding: 1em;
+}
+.Summary_Recipe
+{
+color:  #363636;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 21.6px */
+width: 35em;
+margin-bottom: 5em;
+}
+.MakingSteps
+{
+color:  #363636;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 28.8px */
+background: rgba(91, 124, 117, 0.10);
+padding: 10px;
+width: 8em;
+}
+.steps>span
+{
+    color:  #363636;   
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 21.6px */
+}
+.steps>p
+{
+color:  #363636;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 21.6px */
+width: 36em;
+}
+.Ingredients
+{
+    border-radius: 24px;
+    border: 1px dashed rgba(54, 54, 54, 0.50);
+    padding: 2em;  
+    margin: 2em;
+    display: grid;
+}
+.Title_Ingredients
+{
+    color:  #363636;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 28.8px */  
+}
+.Text_Ingredients
+{
+    border-radius: 8px;
+    background: #F4F4F4;  
+    color:  #363636;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 21.6px */
+    padding: 1em;
+    margin: 2em;
+     
+}
+.FirstRecipeDetails,
+.Recipeimages,
+.Second_add_RecipeSteps
+{
+color:  #E36824;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 36px */
+margin: 1em;
+}
+.Add_New_Recipe,
+.Add_Steps
+{
+    display: flex;
+    margin: 3em;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.from_addnewrecipe
+{
+
+}
+.RecipeName,
+.RecipeDescription,
+.Recipeingredients,
+.Text_Steps,
+.Label_Steps
+{
+color:  #363636;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 27px */
+margin: 1em;
+}
+
+.MainInput_RecipeName,
+.MainInput_Recipeingredients,
+.MainInputSteps
+{
+border-radius: 32px;
+border: 1px solid  #363636;
+display: flex;
+height: 50px;
+padding: 1em;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+width: 430px;
+margin: 1em;
+}
+.MainInput_RecipeDescription
+{
+display: flex;
+height: 155px;
+padding: 16px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+flex-shrink: 0;
+align-self: stretch;
+border-radius: 16px;
+border: 1px solid  #363636;
+margin: 1em;
+}
+.Addnew_Ingrediant
+{
+display: flex;
+width: 263px;
+height: 32px;
+padding: 8px 16px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 50px;
+background:  #ECECEC;
+color:  #1C1C1C;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+margin: 1em;
+}
+.Next
+{
+display: flex;
+width: 548px;
+padding: 16.5px 26px 16.5px 32px;
+justify-content: center;
+align-items: center;
+gap: 14px;
+border-radius: 32px;
+background:  #5B7C75;
+color:  #FFF;
+font-family: Montserrat;
+font-size: 19px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 28.5px */
+text-transform: uppercase;
+margin-top: 5em;
+}
+.MainInput_Add_Pic_Cripe
+{
+display: flex;
+width: 448px;
+padding: 50px 0px;
+justify-content: center;
+align-items: center;
+border-radius: 24px;
+border: 1px dashed  #363636;
+background:  #FDEED9;
+}
